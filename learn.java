@@ -177,3 +177,39 @@
 // }
 // }
 // }
+
+// import java.util.*;
+// class learn {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter number of elements: ");
+// int n = sc.nextInt();
+// int a[] = new int[n];
+// System.out.println("Enter elements: ");
+// for (int i = 0; i < n; i++) {
+// a[i] = sc.nextInt();
+// }
+// int largest = a[0];
+// for (int i = 0; i < n; i++) {
+// if (a[0] < a[i]) {
+// largest = a[i];
+// }
+// }
+// System.out.println("largest: " + largest);
+// }
+// }
+
+// class learn {
+// public static void main(String[] args) {
+// String text = "Hello Java";
+// text.lenght();
+// text.chqarAt(0);
+// text.Substing(6);
+// text.toUpperCase();
+// text.toLowerCase();
+// text.contains("Java");
+// text.StartsWith("Hello");
+// text.endsWith("Java");
+// text.indexof("Java");
+// }
+// }
