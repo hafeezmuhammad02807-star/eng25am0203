@@ -204,12 +204,68 @@
 // String text = "Hello Java";
 // text.lenght();
 // text.chqarAt(0);
-// text.Substing(6);
+// text.substring(0,7);
 // text.toUpperCase();
 // text.toLowerCase();
 // text.contains("Java");
 // text.StartsWith("Hello");
 // text.endsWith("Java");
-// text.indexof("Java");
+// text.indexOf("Java");
 // }
 // }
+
+// import java.util.*;
+// class learn {
+// public static void main(String[] args) {
+// System.out.println("Enter a string: ");
+// Scanner sc = new Scanner(System.in);
+// String s = sc.nextLine();
+// System.out.println("Character at 6th location: " + s.charAt(6));
+// System.out.println("String length: " + s.length());
+// System.out.println("SubString length: " + s.substring(0, 7));
+// System.out.println("Upper case string: " + s.toUpperCase());
+// System.out.println("Lower case string: " + s.toLowerCase());
+// System.out.println("string comtains: " + s.contains("ava"));
+// System.out.println("string startsWith: " + s.startsWith("Hello"));
+// System.out.println("string endsWith: " + s.endsWith("java"));
+// System.out.println("string index of: " + s.indexOf("v"));
+// }
+// }
+
+// import java.util.*;
+
+// class learn {
+// public static void main(String[] args) {
+// System.out.println("Enter a string: ");
+// Scanner sc = new Scanner(System.in);
+// String s = sc.nextLine();
+// int count = 0;
+// for (int i = 0; i < s.length(); i++) {
+// char ch = s.charAt(i);
+// if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+// count++;
+// }
+// }
+// System.out.println("Number of vowels: " + count);
+// }
+// }
+
+import java.util.*;
+
+class learn {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number of elements: ");
+        int n = sc.nextInt();
+        int a[];
+        System.out.println("Enter elements: ");
+        for (int i = 0; i < n; i++) {
+            int a[] = new int[n];
+        }
+        for (int i = 0; i < n; i++) {
+            while (a[i] != a[i + 1]) {
+                System.out.println(" " + a[i]);
+            }
+        }
+    }
+}
