@@ -249,23 +249,3 @@
 // System.out.println("Number of vowels: " + count);
 // }
 // }
-
-// import java.util.*;
-
-// class learn {
-// public static void main(String[] args) {
-// Scanner sc = new Scanner(System.in);
-// System.out.println("Enter number of elements: ");
-// int n = sc.nextInt();
-// int a[];
-// System.out.println("Enter elements: ");
-// for (int i = 0; i < n; i++) {
-// int a[] = new int[n];
-// }
-// for (int i = 0; i < n; i++) {
-// while (a[i] != a[i + 1]) {
-// System.out.println(" " + a[i]);
-// }
-// }
-// }
-// }
