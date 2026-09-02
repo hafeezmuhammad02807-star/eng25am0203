@@ -202,13 +202,13 @@
 // class learn {
 // public static void main(String[] args) {
 // String text = "Hello Java";
-// text.lenght();
-// text.chqarAt(0);
+// text.length();
+// text.charAt(0);
 // text.substring(0,7);
 // text.toUpperCase();
 // text.toLowerCase();
 // text.contains("Java");
-// text.StartsWith("Hello");
+// text.startsWith("Hello");
 // text.endsWith("Java");
 // text.indexOf("Java");
 // }
@@ -265,6 +265,56 @@
 // System.out.print(a[i][j] + " ");
 // }
 // System.out.println();
+// }
+// }
+// }
+
+// import java.util.*;
+// class learn {
+//     public static void main(String[] args) {
+//         int upper = 0;
+//         int lower = 0;
+//         int digit = 0;
+//         int space = 0;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter a string: ");
+//         String s = sc.nextLine();
+//         for (int i = 0; i < s.length(); i++) {
+//             char ch = s.charAt(i);
+//             if (Character.isUpperCase(ch)) {
+//                 upper++;
+//             }
+//             if (Character.isLowerCase(ch)) {
+//                 lower++;
+//             }
+//             if (Character.isDigit(ch)) {
+//                 digit++;
+//             }
+//             if (Character.isSpaceChar(ch)) {
+//                 space++;
+//             }
+//         }
+//         System.out.println("number of Upper case: " + upper);
+//         System.out.println("number of Lower case: " + lower);
+//         System.out.println("number of Digits: " + digit);
+//         System.out.println("number of Spaces: " + space);
+//     }
+// }
+
+// import java.util.*;
+
+// class learn {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter temperature in celsius: ");
+// double celsius = sc.nextDouble();
+// double farenheit = (celsius * 9 / 5) + 32;
+// double kelvin = celsius + 273.15;
+// double a[] = new double[2];
+// a[0] = farenheit;
+// a[1] = kelvin;
+// for (int i = 0; i < a.length; i++) {
+// System.out.print(a[i] + "," + " ");
 // }
 // }
 // }
