@@ -9,7 +9,9 @@ public class learn48 {
             for (int i = 0; i < n; i++) {
                 a[i] = sc.nextInt();
             }
-            System.out.println(a[5]);
+            for (int i = 0; i < n; i++) {
+                System.out.println(a[i]);
+            }
         } catch (Exception e) {
             System.out.println("Index is out of bounds");
         }
